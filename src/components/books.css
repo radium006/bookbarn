@@ -1,0 +1,23 @@
+.book-list{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.book-list ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.book-entry{
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+}
+
+.book-entry img{
+    width: 200px;
+    height: 300px;
+}
